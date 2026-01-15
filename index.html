@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Watermarker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Add Our Logo</h1>
+        <p>Upload your image to apply the official watermark.</p>
+
+        <div class="upload-section">
+            <input type="file" id="mainImage" accept="image/*">
+        </div>
+
+        <div class="preview-area">
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <div class="actions">
+            <a id="downloadBtn" class="hidden">Download Result</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
